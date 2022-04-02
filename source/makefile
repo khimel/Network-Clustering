@@ -8,6 +8,7 @@ clean:
 	rm -rf *.o cluster
 
 
+
 main.o: main.c ALGORITHMS.h readNwrite.h
 	gcc $(FLAGS) -c main.c 
 	
