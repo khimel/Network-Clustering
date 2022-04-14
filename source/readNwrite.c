@@ -84,7 +84,7 @@ void groupsToOutput(char fileName[], SET *O){
 
 		}
 		n =  p->g->size;
-		 if ((int)fwrite(p->g->indices, sizeof(int), n, outFile)!= n){/* whyyyy? nada */
+		 if ((int)fwrite(p->g->indices, sizeof(int), n, outFile)!= n){
 			 exit(1);
 		 }
 		 p= p->next;
